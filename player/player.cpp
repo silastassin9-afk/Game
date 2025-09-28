@@ -1,11 +1,11 @@
 #include <iostream>
-#include <player/player.h>
+#include "player/player.h"
 
 void Player::talk() {
     isTalking = false;
     if (isTalking = true) {
-        printf("Talking ...");
+        std::cout << "Talking ...";
     } else {
-        printf("Not talking");
+        std::cout << "Not talking";
     }
 }
